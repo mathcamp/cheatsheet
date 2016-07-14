@@ -11,7 +11,7 @@ Plus we have inline functions with reified generics on extension functions. Ther
 The standard library was missing a few operations and structures that we found very useful:
 
 ### Either
-kkkkk
+
 `Either<T, U>` is a disjoint union over two types `T` and `U`. It includes a right-biased map. This is useful for propagating errors safely without exceptions:
 
 ```kotlin
